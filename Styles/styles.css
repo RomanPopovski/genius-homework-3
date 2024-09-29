@@ -204,6 +204,9 @@ address {
   line-height: 1.15;
 }
 /* Перевтілюйтесь в beauty zone!  section - ABOUT US */
+.about-us-section {
+  padding-top: 0;
+}
 .about-us-container {
   display: flex;
   gap: 32px;
@@ -373,7 +376,7 @@ address {
 .submit-form {
   max-width: 423px;
   height: 481px;
-  background-image: url("../Images/submit-dorm-background.png");
+  background-image: url("../images/submit-dorm-background.png");
   background-color: var(--Color-brand-dark);
   padding: 48px 57px;
   border-radius: 32px;
@@ -398,7 +401,7 @@ address {
   position: relative;
   padding: 56px 0;
   margin: 0;
-  background-image: url("../Images/footer-background.png");
+  background-image: url("../images/footer-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -478,7 +481,7 @@ address {
   position: relative;
   width: 720px;
   height: 680px;
-  background-image: url(../Images/submit-dorm-background.png);
+  background-image: url(../images/submit-dorm-background.png);
   background-color: var(--Color-brand-dark);
   border-radius: 48px;
 }
