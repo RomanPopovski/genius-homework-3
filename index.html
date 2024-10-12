@@ -204,12 +204,24 @@
                     id="user-name"
                     name="user-name"
                     placeholder="Ваше ім'я та прізвище"
+                    minlength="2"
+                    maxlength="40"
+                    pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                    required
                   />
                 </div>
 
                 <div class="form-field">
                   <label class="form-label hidden" for="user-tel">Телефон</label>
-                  <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Ваш номер телефону" />
+                  <input
+                    class="form-input"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Номер телефону (у форматі +380..........)"
+                    pattern="^\+[0-9]{12}"
+                    required
+                  />
                 </div>
 
                 <div class="form-field">
@@ -220,6 +232,8 @@
                     name="user-mail"
                     id="user-mail"
                     placeholder="Ваша електронна пошта"
+                    pattern="[^@\s]+@[^@\s]+"
+                    required
                   />
                 </div>
 
